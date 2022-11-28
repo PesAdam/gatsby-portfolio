@@ -1,0 +1,39 @@
+/* border-box */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+/* clearfix */
+.group:before,
+.group:after { content: " "; display: table; }
+.group:after { clear: both; }
+
+
+body {
+	color: #fff;
+	background: #2f313c;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: .2s all ease-in-out;
+}
+
+img {
+    margin-top: 20px;
+	width: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+
+
+.container {
+	margin: 0 auto;
+	max-width: 64em;
+	padding: 0 1em;
+}

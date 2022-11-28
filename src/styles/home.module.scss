@@ -1,0 +1,32 @@
+.domov{
+    font-size: 2em;
+    text-align: center;
+}
+
+.domov img{
+    width: 250px;
+}
+
+.home article {
+	padding-bottom: 0;
+}
+
+.banner {
+	max-width: 100%;
+	height: auto;
+	border-radius: .75em .75em 0 0;
+	vertical-align: bottom;
+	margin-top: 2.75em;
+	position: relative;
+	z-index: 1;
+	top: .425em;
+	transition: .2s top ease-in-out;
+}
+
+.banner:hover {
+	top: 0;
+}
+
+.cover .banner{
+	position: absoulute;
+}
