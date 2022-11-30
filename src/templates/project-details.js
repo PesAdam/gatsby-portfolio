@@ -2,7 +2,7 @@ import { graphql } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
 import Img from "gatsby-image"
-import styles from "../styles/project-details.module.scss";
+import * as styles from "../styles/project-details.module.scss";
 
 
 export default function ProjectDetails({data}){
@@ -11,10 +11,10 @@ export default function ProjectDetails({data}){
 
     return (
         <Layout>
-            <div className="">
-                <h2>{title}</h2>
+            <div className={styles.article}>
+                <h1>{title}</h1>
                 <h3>{stack}</h3>
-                <Img fluid={featured.childImageSharp.fluid}/>
+                <Img fluid={featured.childImageSharp.fluid} className={styles.image_wrapper}/>
                 <div dangerouslySetInnerHTML={{__html: html}}/>
             </div>
         </Layout>

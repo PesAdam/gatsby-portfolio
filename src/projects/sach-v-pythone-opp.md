@@ -2,8 +2,8 @@
 slug: 'sach-v-pythone'
 title: "šach v pythone"
 stack: "Python 3"
-thumb: ../images/thumbs/ISO_C++_Logo.svg.png
-featured: ../images/featured/ISO_C++_Logo.svg.png
+thumb: ../images/thumbs/Chess_board.jpeg
+featured: ../images/featured/Chess_board.jpeg
 ---
 # Šach v pythone
 ## _môj projekt na programovanie do školy_
