@@ -2,6 +2,8 @@
 slug: 'djistrov-algoritmus'
 title: "Djistrov Algoritmus"
 stack: "C++"
+thumb: ../images/thumbs/ISO_C++_Logo.svg.png
+featured: ../images/featured/ISO_C++_Logo.svg.png
 ---
 
 # Dijkstra Algoritmus

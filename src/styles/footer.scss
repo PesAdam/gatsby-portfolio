@@ -40,10 +40,11 @@
 
 .footer{
 	list-style: none;
-    img{
-        max-width: 45px;
-        margin-right: 30px;
-    }
+    .gatsby-image-wrapper {
+			max-width: 55px;
+			max-height: 50px;
+			margin-right: 30px;
+	}
 }
 .footer li{
 	display: inline-block;

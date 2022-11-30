@@ -8,19 +8,19 @@ export default function Footer( {data} ) {
   return (
     <div>
       <aside className="pre-footer">
-    <div className="container">
-        <h3> Sleduj ma </h3>
-        <ul className="footer">
-            {/* <li><a href=""><StaticImage fluid={data.file.childImageSharp.fluid} /></a> </li> */}
-            <li><a href=""><img src={'../gitlab.png'} /> </a> </li>
-            <li><a href=""><img src={'../linkedin.png'} /> </a>  </li>
-        </ul>
-    </div>
-</aside>
+        <div className="container">
+          <h3> Sleduj ma </h3>
+          <ul className="footer">
+            <li><a href=""><StaticImage className="img" src="../images/icons/github.png" /></a></li>
+            <li><a href=""><StaticImage src="../images/icons/gitlab.png" /></a> </li>
+            <li><a href=""><StaticImage src="../images/icons/linkedin.png" /></a>  </li>
+          </ul>
+        </div>
+      </aside>
 
-<footer className="site-footer">
-    <div className="container">
-        <p className="small">
+      <footer className="site-footer">
+        <div className="container">
+          <p className="small">
             &copy; belo
           </p>
         </div>
@@ -28,16 +28,3 @@ export default function Footer( {data} ) {
     </div>
   )
 }
-
-export const query = graphql `query Icons {
-  file(relativePath: {eq: "gitlab.png"}) {
-    id
-    childImageSharp {
-      fluid {
-        src
-        srcSet
-        sizes
-      }
-    }
-  }
-}`
